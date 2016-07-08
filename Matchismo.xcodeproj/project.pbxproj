@@ -15,6 +15,7 @@
 		78745DFE1D2AD4A500B18C97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78745DFC1D2AD4A500B18C97 /* LaunchScreen.storyboard */; };
 		78745E091D2AD4A500B18C97 /* MatchismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78745E081D2AD4A500B18C97 /* MatchismoTests.m */; };
 		78745E141D2AD4A500B18C97 /* MatchismoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78745E131D2AD4A500B18C97 /* MatchismoUITests.m */; };
+		78745E231D2AD4F800B18C97 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 78745E221D2AD4F800B18C97 /* Card.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		78745E0F1D2AD4A500B18C97 /* MatchismoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchismoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78745E131D2AD4A500B18C97 /* MatchismoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchismoUITests.m; sourceTree = "<group>"; };
 		78745E151D2AD4A500B18C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78745E211D2AD4F800B18C97 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		78745E221D2AD4F800B18C97 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				78745DF11D2AD4A500B18C97 /* AppDelegate.h */,
+				78745E211D2AD4F800B18C97 /* Card.h */,
+				78745E221D2AD4F800B18C97 /* Card.m */,
 				78745DF21D2AD4A500B18C97 /* AppDelegate.m */,
 				78745DF41D2AD4A500B18C97 /* ViewController.h */,
 				78745DF51D2AD4A500B18C97 /* ViewController.m */,
@@ -273,6 +278,7 @@
 				78745DF61D2AD4A500B18C97 /* ViewController.m in Sources */,
 				78745DF31D2AD4A500B18C97 /* AppDelegate.m in Sources */,
 				78745DF01D2AD4A500B18C97 /* main.m in Sources */,
+				78745E231D2AD4F800B18C97 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
