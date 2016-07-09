@@ -14,6 +14,6 @@
 @property (strong, nonatomic) NSString *suit;
 
 + (NSArray *)validSuits;
-+ (NSUInteger) maxRank;
++ (NSUInteger)maxRank;
 
 @end
